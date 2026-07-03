@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000'
+  baseURL: 'https://lastmile-delivery-tracker-cdw6.onrender.com'
 });
 
 API.interceptors.request.use((req) => {
